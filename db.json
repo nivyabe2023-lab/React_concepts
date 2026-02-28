@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "id": 101,
+      "title": "My First Post",
+      "content": "Hello, this is my first post!",
+      "created_at": "2024-01-01"
+    },
+    {
+      "id": 102,
+      "title": "A Day in the Life",
+      "content": "Today was a great day...",
+      "created_at": "2024-01-05"
+    },
+    {
+      "id": 103,
+      "title": "Tech Trends 2024",
+      "content": "AI and blockchain are shaping the future of technology.",
+      "created_at": "2024-01-10"
+    },
+    {
+      "id": 104,
+      "title": "Best Coding Practices",
+      "content": "Writing clean and efficient code is essential for scalability.",
+      "created_at": "2024-01-15"
+    },
+    {
+      "id": 105,
+      "title": "The Future of Web Development",
+      "content": "React, Svelte, and SolidJS are gaining traction among developers.",
+      "created_at": "2024-01-20"
+    },
+    {
+      "id": 106,
+      "title": "Productivity Hacks",
+      "content": "Using the Pomodoro technique has significantly improved my productivity.",
+      "created_at": "2024-01-25"
+    },
+    {
+      "id": 107,
+      "title": "The Rise of No-Code Platforms",
+      "content": "No-code tools are enabling non-developers to build powerful applications.",
+      "created_at": "2024-01-30"
+    }
+  ]
+}
