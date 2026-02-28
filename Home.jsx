@@ -1,9 +1,13 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect,} from "react";
+import { createContext } from "react";
 import { Link } from "react-router-dom";
+import Login from "./Login";
+export const dataContext = createContext();
 
 function Home() {
 
   const [posts, setPosts] = useState(null);
+  const data = "Datadata";
 
   useEffect(() => {
 
@@ -34,6 +38,11 @@ function Home() {
   return (
     <div className="container">
       <Link to="/login">Login</Link>
+      <dataContext.Provider value={data}>
+         <Login/>
+        </dataContext.Provider>
+     
+
       <div className="row justify-content-center m-3">
         {posts && posts.map(post => {
           return (
